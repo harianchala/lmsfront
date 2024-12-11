@@ -18,7 +18,7 @@ function LoginPage() {
         }
 
         try {
-            const response = await axios.post('http://lmsbackh.up.railway.app/lms1/login', null, {
+            const response = await axios.post('https://lmsbackh.up.railway.app/lms1/login', null, {
                 params: { username, password },
             });
 
